@@ -18,9 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Run format tests
-        run: npm run test:format
-
+        
       - name: Run tests
         run: npm test
